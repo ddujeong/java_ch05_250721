@@ -14,6 +14,14 @@ public class Test03 {
 				}
 			}
 			System.out.println(count);
+	
+//			for(int number : num) {
+//				if (num == 3) {
+//					count++;
+//				}
+			// 향상된 for문 사용하면 더 깔끔
+//			}
+			
 	}
 
 }

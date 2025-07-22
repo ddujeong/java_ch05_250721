@@ -26,7 +26,7 @@ public class Array05 {
 		for(int num : numArr) {
 			if (num % 2 ==0) {
 				System.out.println(num);
-				// num 은 지역변수
+				// num 은 지역변수(임시 위에 선언할 필요 없음)
 			}
 		}
 		

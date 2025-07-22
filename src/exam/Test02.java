@@ -8,8 +8,13 @@ public class Test02 {
 		// 10, 20 , 30 , 40 , 50
 		int[] num = {10, 20, 30, 40, 50};
 		
-		for(int i = 4;i <num.length; i--) {
-			
+//		for(int i = 4;i <num.length; i--) {
+//			
+//			System.out.println(num[i]);
+//		}
+		// 오류 날 수도 있음
+		
+		for(int i = num.length -1; i >=0; i--) {
 			System.out.println(num[i]);
 		}
 		

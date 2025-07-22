@@ -15,5 +15,7 @@ public class Test01 {
 		System.out.println("총 합 : " + sum);
 		double avg = (double) sum / num.length;
 		System.out.println("평균 : " + avg);
+		// System.out.println(sum / (double)num.length);
+		// ↑ 이렇게 하면 더 깔끔
 }
 }
